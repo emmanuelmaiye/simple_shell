@@ -1,12 +1,11 @@
 #include "shell.h"
 
 /**
- * _strncpy - Copies a string up to a specified limit.
+ * _strncpy - Copies a string.
  * @dest: The destination string to copy to.
- * @src: The source string to be copied.
- * @n: The maximum number of characters to be copied.
- *
- * Return: Returns the destination string after copying.
+ * @src: The source string.
+ * @n: The number of characters to copy.
+ * Return: The concatenated string.
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -32,12 +31,11 @@ char *_strncpy(char *dest, char *src, int n)
 }
 
 /**
- * _strncat - Concatenates two strings up to a specified limit.
- * @dest: The first string to be concatenated.
- * @src: The second string to be concatenated.
- * @n: The maximum number of bytes to be used.
- *
- * Return: Returns the first string after concatenation.
+ * _strncat - Concatenates two strings.
+ * @dest: The first string.
+ * @src: The second string.
+ * @n: The maximum number of bytes to use.
+ * Return: The concatenated string.
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -60,11 +58,10 @@ char *_strncat(char *dest, char *src, int n)
 }
 
 /**
- * _strchr - Locates a character in a given string.
- * @s: The string to be searched.
- * @c: The character to look for.
- *
- * Return: Returns a ptr to the first occurrence of char in string.
+ * _strchr - Locates a character in a string.
+ * @s: The string to search.
+ * @c: The character to find.
+ * Return: A pointer to the found character in the memory area s.
  */
 char *_strchr(char *s, char c)
 {
